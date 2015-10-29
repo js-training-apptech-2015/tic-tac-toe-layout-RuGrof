@@ -1,0 +1,62 @@
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.topMenuBlock {
+    height: 27px;
+    width: 100%;
+    border: solid 2px black;
+    line-height: 27px;
+}
+
+body {
+    font-family: 'Arial';
+
+}
+
+#topMenu {
+    float: left;
+    list-style: none;
+    padding: 0;
+
+}
+
+#topMenu>li {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gameTile {
+    width: 94px;
+    height: 94px;
+    border: solid 2px black;
+    margin: 3px;
+    float: left
+}
+
+#gameBox {
+    margin: 0 auto;
+    width: 300px;
+}
+#gameBox::after{
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.gameBlock {
+    padding-top: 25px;
+}
+
+.scoreboard {
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center
+}
