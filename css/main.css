@@ -1,5 +1,5 @@
 
-#wrapper {
+.wrapper {
     margin: 0 auto;
     max-width: 700px;
 }
@@ -16,14 +16,14 @@ body {
 
 }
 
-#topMenu {
+.topMenu {
     float: left;
     list-style: none;
     padding: 0;
 
 }
 
-#topMenu>li {
+.topMenu>li {
     float: left;
     margin-left: 20px;
     margin-right: 20px;
@@ -34,14 +34,18 @@ body {
     height: 94px;
     border: solid 2px black;
     margin: 3px;
-    float: left
+    float: left;
+    font-size: 110px;
+    text-align: center;
+    line-height: 98px;
+    color:#0097A7;
 }
 
-#gameBox {
+.gameBox {
     margin: 0 auto;
-    width: 300px;
+    width: 312px;
 }
-#gameBox::after{
+.gameBox::after{
     content: "";
     visibility: hidden;
     display: block;
@@ -58,5 +62,16 @@ body {
     padding-top: 25px;
     margin: 0 auto;
     width: 300px;
-    text-align: center
+    text-align: center;
+    font-weight: bold;
+}
+.tic{
+    background-image: url(/image/tic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tac{
+    background-image: url(/image/tac.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
